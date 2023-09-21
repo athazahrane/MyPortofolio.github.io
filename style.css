@@ -128,8 +128,10 @@ main.hero {
     font-size: 1.5rem;
 } 
 main.hero img {
-    max-width: 600px;
+    max-width: 500px;
     height: max-content;
+    border-radius: 20px;
+    margin: 0 20px;
     object-fit: cover;
     animation: moveUpDown 3s infinite;
 }
@@ -192,7 +194,7 @@ button.btn-hero:hover {
 /* responsive */
 @media screen and (max-width: 992px) {
     main.hero img {
-        width: 500px;
+        width: 80%;
     }
     main.hero {
         justify-content: center;

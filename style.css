@@ -308,7 +308,7 @@ main.projects img {
     object-fit: cover;
     transition: all .3s ease;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 main.projects img:hover {
     transform: scale(1.1);

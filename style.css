@@ -42,7 +42,7 @@ header {
     color: var(--varwhite);
     margin: 0 1.5em;
     transition: all 0.3s ease;
-    font-weight: 400;
+    font-weight: 600;
 }
 nav a:hover {
     color: var(--lightred);
@@ -80,8 +80,8 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-color: rgba(6, 6, 6, 0.407);
-        backdrop-filter: blur(10px);
+        background-color: rgba(6, 6, 6, 0.616);
+        backdrop-filter: blur(50px);
         text-align: center;
         transition: all 0.3s ease;
         overflow: hidden;
@@ -239,6 +239,11 @@ main.about .container {
     padding: 25px; 
     background: none;
     font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.container label:hover {
+    color: var(--youngestred);
 }
 
 .container .tab {
@@ -341,6 +346,10 @@ form input {
     padding: 20px;
     box-sizing: border-box;
     outline: none;
+    border: none;
+    background: none;
+    border-bottom: 3px solid var(--youngestred);
+    color: var(--varwhite);
 }
 form textarea {
     width: 500px;
@@ -399,4 +408,18 @@ form button:hover {
     form button {
         width: 70%;
     }
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--varwhite);
+    font-size: 0.9rem;
+}
+footer span {
+    color: var(--youngestred);
+}
+footer i {
+    color: var(--youngestred);
 }
